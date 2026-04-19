@@ -1,0 +1,12 @@
+{
+  "coords": {
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "altitude": 15.0,
+    "accuracy": 10.0,
+    "altitudeAccuracy": 5.0,
+    "heading": 180.0,
+    "speed": 1.5
+  },
+  "timestamp": 1718153645993
+}

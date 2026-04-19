@@ -1,0 +1,264 @@
+vocabulary: 1.0.0
+info:
+  provider: Apache Cordova
+  description: Vocabulary and taxonomy for Apache Cordova, the open-source mobile development framework for building cross-platform apps with web technologies.
+  created: '2026-04-19'
+  modified: '2026-04-19'
+operational:
+  apis:
+  - namespace: cordova-cli
+    version: 13.0.0
+    baseUrl: https://github.com/apache/cordova-cli
+    status: active
+    description: CLI for creating, building, and deploying Cordova apps
+  - namespace: cordova-android
+    version: 15.0.0
+    baseUrl: https://github.com/apache/cordova-android
+    status: active
+    description: Android platform runtime
+  - namespace: cordova-ios
+    version: 8.0.1
+    baseUrl: https://github.com/apache/cordova-ios
+    status: active
+    description: iOS platform runtime
+  - namespace: cordova-electron
+    version: 4.0.0
+    baseUrl: https://github.com/apache/cordova-electron
+    status: active
+    description: Electron desktop platform runtime
+  - namespace: cordova-plugin-camera
+    version: 7.0.0
+    baseUrl: https://github.com/apache/cordova-plugin-camera
+    status: active
+    description: Camera and photo library access
+  - namespace: cordova-plugin-geolocation
+    version: 5.0.0
+    baseUrl: https://github.com/apache/cordova-plugin-geolocation
+    status: active
+    description: GPS and location services
+  - namespace: cordova-plugin-file
+    version: 8.0.0
+    baseUrl: https://github.com/apache/cordova-plugin-file
+    status: active
+    description: File system read/write access
+  - namespace: cordova-plugin-inappbrowser
+    version: 6.0.0
+    baseUrl: https://github.com/apache/cordova-plugin-inappbrowser
+    status: active
+    description: In-app browser window
+  resources:
+  - name: camera
+    description: Device camera and photo library
+    actions:
+    - capture
+    - cleanup
+    apis:
+    - cordova-plugin-camera
+  - name: geolocation
+    description: GPS position and location tracking
+    actions:
+    - getCurrentPosition
+    - watchPosition
+    - clearWatch
+    apis:
+    - cordova-plugin-geolocation
+  - name: file
+    description: Device file system
+    actions:
+    - read
+    - write
+    - list
+    - delete
+    - copy
+    - move
+    apis:
+    - cordova-plugin-file
+  - name: browser
+    description: In-app browser window
+    actions:
+    - open
+    - close
+    - executeScript
+    - insertCSS
+    apis:
+    - cordova-plugin-inappbrowser
+  - name: device
+    description: Device hardware info
+    actions:
+    - getInfo
+    apis:
+    - cordova-plugin-device
+  - name: network
+    description: Network connectivity status
+    actions:
+    - getConnectionType
+    - onOnline
+    - onOffline
+    apis:
+    - cordova-plugin-network-information
+  - name: project
+    description: Cordova project lifecycle
+    actions:
+    - create
+    - platform-add
+    - platform-remove
+    - plugin-add
+    - plugin-remove
+    - build
+    - run
+    - prepare
+    - clean
+    apis:
+    - cordova-cli
+  actions:
+  - name: create
+    description: Create a new Cordova project
+    pattern: write
+  - name: build
+    description: Build the app for a target platform
+    pattern: write
+  - name: run
+    description: Deploy and run on device or emulator
+    pattern: write
+  - name: plugin-add
+    description: Add a Cordova plugin to the project
+    pattern: write
+  - name: platform-add
+    description: Add a target platform to the project
+    pattern: write
+  - name: capture
+    description: Capture an image or video from the device
+    pattern: read
+  - name: getCurrentPosition
+    description: Get current GPS location once
+    pattern: read
+  - name: watchPosition
+    description: Continuously monitor GPS location
+    pattern: read
+  schemas:
+    core:
+    - Widget
+    - Preference
+    - Plugin
+    - Platform
+    media:
+    - CameraOptions
+    location:
+    - Position
+    - Coordinates
+    - PositionError
+    - GeolocationOptions
+  parameters:
+    camera:
+    - quality
+    - destinationType
+    - sourceType
+    - encodingType
+    - targetWidth
+    - targetHeight
+    - mediaType
+    - cameraDirection
+    geolocation:
+    - enableHighAccuracy
+    - timeout
+    - maximumAge
+    config:
+    - id
+    - version
+    - xmlns
+    - name
+    - description
+  enums:
+    destinationType:
+    - DATA_URL (0)
+    - FILE_URI (1)
+    encodingType:
+    - JPEG (0)
+    - PNG (1)
+    sourceType:
+    - PHOTOLIBRARY (0)
+    - CAMERA (1)
+    - SAVEDPHOTOALBUM (2)
+    mediaType:
+    - PICTURE (0)
+    - VIDEO (1)
+    - ALLMEDIA (2)
+    cameraDirection:
+    - BACK (0)
+    - FRONT (1)
+    platform:
+    - android
+    - ios
+    - electron
+    - browser
+    positionError:
+    - PERMISSION_DENIED
+    - POSITION_UNAVAILABLE
+    - TIMEOUT
+    logLevel:
+    - ERROR
+    - WARN
+    - INFO
+    - DEBUG
+    - VERBOSE
+  authentication:
+    schemes:
+    - None — Cordova is a client-side framework with no server authentication required
+capability:
+  workflows: []
+  personas:
+  - id: mobile-dev
+    name: Mobile Developer
+    description: Builds cross-platform mobile apps using HTML/CSS/JavaScript and Cordova plugins
+  - id: plugin-author
+    name: Plugin Author
+    description: Develops native plugins bridging device APIs to JavaScript for the Cordova ecosystem
+  - id: enterprise-architect
+    name: Enterprise Architect
+    description: Evaluates and adopts Cordova for enterprise mobile application delivery
+  domains:
+  - name: Mobile Development
+    description: Building and deploying mobile applications for iOS, Android, and desktop
+  - name: Device APIs
+    description: Accessing native device capabilities through JavaScript plugin interfaces
+  - name: Plugin Ecosystem
+    description: Community and official plugins extending Cordova core functionality
+  namespaces: []
+  binds: []
+crossReference:
+- resource: camera
+  operations:
+  - getPicture
+  - cleanup
+  workflows: []
+  personas:
+  - mobile-dev
+- resource: geolocation
+  operations:
+  - getCurrentPosition
+  - watchPosition
+  - clearWatch
+  workflows: []
+  personas:
+  - mobile-dev
+- resource: file
+  operations:
+  - read
+  - write
+  - list
+  - delete
+  workflows: []
+  personas:
+  - mobile-dev
+  - enterprise-architect
+- resource: project
+  operations:
+  - create
+  - build
+  - run
+  - plugin-add
+  - platform-add
+  workflows: []
+  personas:
+  - mobile-dev
+  - enterprise-architect

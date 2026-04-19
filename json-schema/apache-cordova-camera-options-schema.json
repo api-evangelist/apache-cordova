@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-schema/apache-cordova-camera-options-schema.json",
+  "title": "CameraOptions",
+  "description": "Options for configuring the Apache Cordova Camera plugin getPicture call",
+  "type": "object",
+  "properties": {
+    "quality": {
+      "type": "integer",
+      "description": "Quality of the saved image, expressed as a range of 0-100, where 100 is typically full resolution with no file compression loss.",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 50,
+      "example": 75
+    },
+    "destinationType": {
+      "type": "integer",
+      "description": "Choose the format of the return value. 0 = DATA_URL (base64 encoded string), 1 = FILE_URI (image file URI).",
+      "enum": [0, 1],
+      "default": 1,
+      "example": 1
+    },
+    "sourceType": {
+      "type": "integer",
+      "description": "Set the source of the picture. 0 = PHOTOLIBRARY, 1 = CAMERA, 2 = SAVEDPHOTOALBUM.",
+      "enum": [0, 1, 2],
+      "default": 1,
+      "example": 1
+    },
+    "allowEdit": {
+      "type": "boolean",
+      "description": "Allow simple editing of image before selection.",
+      "default": false,
+      "example": false
+    },
+    "encodingType": {
+      "type": "integer",
+      "description": "Choose the returned image file encoding. 0 = JPEG, 1 = PNG.",
+      "enum": [0, 1],
+      "default": 0,
+      "example": 0
+    },
+    "targetWidth": {
+      "type": "integer",
+      "description": "Width in pixels to scale image. Must be used with targetHeight. Aspect ratio remains constant.",
+      "minimum": 1,
+      "example": 800
+    },
+    "targetHeight": {
+      "type": "integer",
+      "description": "Height in pixels to scale image. Must be used with targetWidth. Aspect ratio remains constant.",
+      "minimum": 1,
+      "example": 600
+    },
+    "mediaType": {
+      "type": "integer",
+      "description": "Set the type of media to select from. 0 = PICTURE, 1 = VIDEO, 2 = ALLMEDIA. Only works when sourceType is PHOTOLIBRARY or SAVEDPHOTOALBUM.",
+      "enum": [0, 1, 2],
+      "default": 0,
+      "example": 0
+    },
+    "correctOrientation": {
+      "type": "boolean",
+      "description": "Rotate the image to correct for the orientation of the device during capture.",
+      "example": true
+    },
+    "saveToPhotoAlbum": {
+      "type": "boolean",
+      "description": "Save the image to the photo album on the device after capture.",
+      "default": false,
+      "example": false
+    },
+    "cameraDirection": {
+      "type": "integer",
+      "description": "Choose the camera to use. 0 = BACK, 1 = FRONT.",
+      "enum": [0, 1],
+      "default": 0,
+      "example": 0
+    }
+  }
+}

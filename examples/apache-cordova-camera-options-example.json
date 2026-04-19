@@ -1,0 +1,13 @@
+{
+  "quality": 75,
+  "destinationType": 1,
+  "sourceType": 1,
+  "allowEdit": false,
+  "encodingType": 0,
+  "targetWidth": 800,
+  "targetHeight": 600,
+  "mediaType": 0,
+  "correctOrientation": true,
+  "saveToPhotoAlbum": false,
+  "cameraDirection": 0
+}

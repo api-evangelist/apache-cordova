@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-schema/apache-cordova-config-widget-schema.json",
+  "title": "Widget",
+  "description": "Root configuration element of the Apache Cordova config.xml file, defining app identity, metadata, and behavior preferences.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Reverse-DNS format unique app identifier (e.g., com.example.myapp).",
+      "example": "com.example.myapp"
+    },
+    "version": {
+      "type": "string",
+      "description": "Major/minor/patch version number for the application.",
+      "example": "1.0.0"
+    },
+    "android-versionCode": {
+      "type": "string",
+      "description": "Alternative version for Android; overrides the versionCode auto-generated from version.",
+      "example": "10"
+    },
+    "ios-CFBundleVersion": {
+      "type": "string",
+      "description": "Alternative version string for iOS build.",
+      "example": "1.0.0"
+    },
+    "xmlns": {
+      "type": "string",
+      "description": "Required W3C widgets namespace.",
+      "example": "http://www.w3.org/ns/widgets"
+    },
+    "name": {
+      "type": "string",
+      "description": "Formal display name of the application.",
+      "example": "My Cordova App"
+    },
+    "description": {
+      "type": "string",
+      "description": "Metadata description used for app-store listings.",
+      "example": "A hybrid mobile application built with Apache Cordova."
+    },
+    "author": {
+      "type": "object",
+      "description": "Author contact information.",
+      "properties": {
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Author email address.",
+          "example": "developer@example.com"
+        },
+        "href": {
+          "type": "string",
+          "format": "uri",
+          "description": "Author website URL.",
+          "example": "https://example.com"
+        },
+        "content": {
+          "type": "string",
+          "description": "Author name.",
+          "example": "Jane Smith"
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "description": "Defines the app's starting page.",
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "Starting page relative path.",
+          "default": "index.html",
+          "example": "index.html"
+        }
+      }
+    },
+    "preferences": {
+      "type": "array",
+      "description": "Array of preference settings controlling application behavior.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Preference name.",
+            "example": "Fullscreen"
+          },
+          "value": {
+            "type": "string",
+            "description": "Preference value.",
+            "example": "true"
+          }
+        },
+        "required": ["name", "value"]
+      }
+    },
+    "plugins": {
+      "type": "array",
+      "description": "List of plugins to restore.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Plugin name.",
+            "example": "cordova-plugin-camera"
+          },
+          "spec": {
+            "type": "string",
+            "description": "Plugin version or repository reference.",
+            "example": "^7.0.0"
+          }
+        },
+        "required": ["name", "spec"]
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "description": "List of target platforms.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Platform identifier.",
+            "enum": ["android", "ios", "electron", "browser"],
+            "example": "android"
+          },
+          "spec": {
+            "type": "string",
+            "description": "Platform version.",
+            "example": "^15.0.0"
+          }
+        },
+        "required": ["name"]
+      }
+    }
+  },
+  "required": ["id", "version", "xmlns"]
+}

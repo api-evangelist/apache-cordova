@@ -1,0 +1,47 @@
+{
+  "id": "com.example.myapp",
+  "version": "1.0.0",
+  "android-versionCode": "10",
+  "ios-CFBundleVersion": "1.0.0",
+  "xmlns": "http://www.w3.org/ns/widgets",
+  "name": "My Cordova App",
+  "description": "A hybrid mobile application built with Apache Cordova.",
+  "author": {
+    "email": "developer@example.com",
+    "href": "https://example.com",
+    "content": "Jane Smith"
+  },
+  "content": {
+    "src": "index.html"
+  },
+  "preferences": [
+    {
+      "name": "Fullscreen",
+      "value": "true"
+    },
+    {
+      "name": "Fullscreen",
+      "value": "true"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "cordova-plugin-camera",
+      "spec": "^7.0.0"
+    },
+    {
+      "name": "cordova-plugin-camera",
+      "spec": "^7.0.0"
+    }
+  ],
+  "platforms": [
+    {
+      "name": "android",
+      "spec": "^15.0.0"
+    },
+    {
+      "name": "android",
+      "spec": "^15.0.0"
+    }
+  ]
+}

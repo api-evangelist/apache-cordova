@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "cordova": "https://cordova.apache.org/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Widget": "cordova:Widget",
+    "androidVersioncode": {
+      "@id": "cordova:android-versionCode",
+      "@type": "xsd:string"
+    },
+    "author": {
+      "@id": "cordova:author",
+      "@type": "@id"
+    },
+    "content": {
+      "@id": "cordova:content",
+      "@type": "xsd:string"
+    },
+    "description": "schema:description",
+    "email": "schema:email",
+    "href": {
+      "@id": "cordova:href",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "cordova:id",
+      "@type": "xsd:string"
+    },
+    "iosCfbundleversion": {
+      "@id": "cordova:ios-CFBundleVersion",
+      "@type": "xsd:string"
+    },
+    "name": "schema:name",
+    "platforms": {
+      "@id": "cordova:platforms",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "plugins": {
+      "@id": "cordova:plugins",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "preferences": {
+      "@id": "cordova:preferences",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "src": {
+      "@id": "cordova:src",
+      "@type": "xsd:string"
+    },
+    "version": "schema:version",
+    "xmlns": {
+      "@id": "cordova:xmlns",
+      "@type": "xsd:string"
+    }
+  }
+}

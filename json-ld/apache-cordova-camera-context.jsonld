@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "cordova": "https://cordova.apache.org/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "CameraOptions": "cordova:CameraOptions",
+    "allowEdit": {
+      "@id": "cordova:allowEdit",
+      "@type": "xsd:boolean"
+    },
+    "cameraDirection": {
+      "@id": "cordova:cameraDirection",
+      "@type": "xsd:integer"
+    },
+    "correctOrientation": {
+      "@id": "cordova:correctOrientation",
+      "@type": "xsd:boolean"
+    },
+    "destinationType": {
+      "@id": "cordova:destinationType",
+      "@type": "xsd:integer"
+    },
+    "encodingType": {
+      "@id": "cordova:encodingType",
+      "@type": "xsd:integer"
+    },
+    "mediaType": {
+      "@id": "cordova:mediaType",
+      "@type": "xsd:integer"
+    },
+    "quality": {
+      "@id": "cordova:quality",
+      "@type": "xsd:integer"
+    },
+    "saveToPhotoAlbum": {
+      "@id": "cordova:saveToPhotoAlbum",
+      "@type": "xsd:boolean"
+    },
+    "sourceType": {
+      "@id": "cordova:sourceType",
+      "@type": "xsd:integer"
+    },
+    "targetHeight": {
+      "@id": "cordova:targetHeight",
+      "@type": "xsd:integer"
+    },
+    "targetWidth": {
+      "@id": "cordova:targetWidth",
+      "@type": "xsd:integer"
+    }
+  }
+}
