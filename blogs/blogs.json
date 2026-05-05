@@ -1,0 +1,13 @@
+{
+  "repo": "apache-cordova",
+  "feeds": [
+    {
+      "source": "https://cordova.apache.org/blog/",
+      "feed_url": "https://cordova.apache.org/feed",
+      "saved": 10,
+      "title": "Apache Cordova"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:22:12Z"
+}
