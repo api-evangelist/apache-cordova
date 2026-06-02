@@ -2,12 +2,20 @@
   "repo": "apache-cordova",
   "feeds": [
     {
-      "source": "https://cordova.apache.org/blog/",
+      "source": "https://cordova.apache.org/feed",
       "feed_url": "https://cordova.apache.org/feed",
-      "title": "Apache Cordova",
-      "saved": 10
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://cordova.apache.org/",
+      "feed_url": "https://cordova.apache.org/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
-  "post_count": 20,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 21,
+  "fetched": "2026-06-01T23:35:02Z"
 }
