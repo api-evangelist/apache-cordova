@@ -2,10 +2,10 @@
   "repo": "apache-cordova",
   "feeds": [
     {
-      "source": "https://cordova.apache.org/feed",
-      "feed_url": "https://cordova.apache.org/feed",
+      "source": "https://cordova.apache.org/feed.xml",
+      "feed_url": "https://cordova.apache.org/feed.xml",
       "title": "",
-      "saved": 0,
+      "saved": 1,
       "method": "feed"
     },
     {
@@ -16,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 21,
-  "fetched": "2026-06-01T23:35:02Z"
+  "post_count": 22,
+  "fetched": "2026-06-14T20:42:17Z"
 }
