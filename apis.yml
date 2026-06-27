@@ -44,74 +44,74 @@ apis:
     url: https://cordova.apache.org/docs/en/latest/config_ref/
   - type: CLI
     url: https://github.com/apache/cordova-cli
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova
     title: npm Package
   - type: GitHubRepository
     url: https://github.com/apache/cordova
   - type: GitHubOrganization
     url: https://github.com/apache
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-android
     title: Android Platform
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-ios
     title: iOS Platform
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-electron
     title: Electron Platform
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-browser
     title: Browser Platform
-  - type: SDK
+  - type: SDKs
     url: https://github.com/apache/cordova-js
     title: JavaScript Bridge
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-camera
     title: Camera Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-file
     title: File Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-geolocation
     title: Geolocation Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-inappbrowser
     title: InAppBrowser Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-media
     title: Media Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-media-capture
     title: Media Capture Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-dialogs
     title: Dialogs Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-device
     title: Device Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-network-information
     title: Network Information Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-vibration
     title: Vibration Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-battery-status
     title: Battery Status Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-screen-orientation
     title: Screen Orientation Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-statusbar
     title: Statusbar Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-device-motion
     title: Device Motion Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-device-orientation
     title: Device Orientation Plugin
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/cordova-plugin-file-transfer
     title: File Transfer Plugin
   - type: Tools
@@ -144,11 +144,11 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-ld/apache-cordova-config-context.jsonld
   - type: JSONLD
     url: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-ld/apache-cordova-geolocation-context.jsonld
-  - type: Example
+  - type: Examples
     url: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/examples/apache-cordova-camera-options-example.json
-  - type: Example
+  - type: Examples
     url: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/examples/apache-cordova-config-widget-example.json
-  - type: Example
+  - type: Examples
     url: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/examples/apache-cordova-geolocation-position-example.json
 maintainers:
 - FN: Kin Lane
