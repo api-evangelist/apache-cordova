@@ -154,6 +154,10 @@ maintainers:
 - FN: Kin Lane
   email: info@apievangelist.com
 common:
+- type: VulnerabilityDisclosure
+  url: security/apache-cordova-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/apache-cordova-domain-security.yml
 - type: Portal
   url: https://cordova.apache.org/
 - type: Blog
