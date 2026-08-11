@@ -166,6 +166,12 @@ maintainers:
 - FN: Kin Lane
   email: info@apievangelist.com
 common:
+- type: IssueTracker
+  url: https://github.com/apache/cordova/issues
+- type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/apache/cordova/blob/master/CONTRIBUTING.md
 - type: VulnerabilityDisclosure
   url: security/apache-cordova-vulnerability-disclosure.yml
 - type: DomainSecurity
