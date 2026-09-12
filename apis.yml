@@ -185,6 +185,8 @@ maintainers:
 - FN: Kin Lane
   email: info@apievangelist.com
 common:
+- type: Website
+  url: https://www.apache.org/
 - type: IssueTracker
   url: https://github.com/apache/cordova/issues
 - type: CodeOfConduct
