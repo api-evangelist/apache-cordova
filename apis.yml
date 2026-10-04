@@ -5,15 +5,18 @@ description: >-
   and JavaScript. It bridges web code to native device capabilities through a plugin architecture, targeting iOS, Android, Electron, and Browser platforms from a single codebase.
 type: Index
 deliveryModel:
-  model: unknown
+  model: library
+  license_evidence:
+    not_product:
+    - apache/cordova
   open_source: unknown
   commercial: false
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Library · distributed through package registries, no callable service
   confidence: low
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -36,7 +39,7 @@ tags:
 - Hybrid Apps
 - JavaScript
 - Mobile
-- Open-Source
+- Open Source
 - Plugins
 tags_raw:
 - Apache
@@ -46,6 +49,7 @@ tags_raw:
 - Mobile
 - Open Source
 - Plugins
+- Open-Source
 created: '2026-03-16'
 modified: '2026-04-19'
 url: >-
