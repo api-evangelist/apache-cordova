@@ -189,6 +189,12 @@ maintainers:
 - FN: Kin Lane
   email: info@apievangelist.com
 common:
+- type: Plans
+  url: plans/apache-cordova-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/apache-cordova-rate-limits.yml
+- type: FinOps
+  url: finops/apache-cordova-finops.yml
 - type: Website
   url: https://www.apache.org/
 - type: IssueTracker
