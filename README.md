@@ -1,4 +1,4 @@
-# Apache Cordova (apache-cordova)
+# Apache Cordova
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,157 +66,149 @@
 
 Apache Cordova is an open-source mobile development framework governed by the Apache Software Foundation that enables developers to build mobile applications using standard web technologies — HTML, CSS, and JavaScript. It bridges web code to native device capabilities through a plugin architecture, targeting iOS, Android, Electron, and Browser platforms from a single codebase.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/apis.yml)
+**Areas:** Apache · Cross-Platform · Hybrid Apps · JavaScript · Mobile · Open Source · Plugins
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Cordova on APIs.io
 
-## Tags:
+Everything profiled for Apache Cordova is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-cordova/](https://apis.io/providers/apache-cordova/)** — or go straight to one of the APIs or properties below.
 
- - Apache, Cross-Platform, Hybrid Apps, JavaScript, Mobile, Open Source, Plugins
+### APIs (1)
 
-## Timestamps
+- [Apache Cordova](https://apis.io/apis/apache-cordova/apache-cordova/) — Apache Cordova provides a JavaScript plugin API for accessing native device capabilities (camera, GPS, file system, contacts, etc.), a CLI for project…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Cordova
-Apache Cordova provides a JavaScript plugin API for accessing native device capabilities (camera, GPS, file system, contacts, etc.), a CLI for project management and multi-platform builds, a plugin development API for creating native bridges, and platform-specific runtimes for iOS, Android, and Electron.
+#### JSON Schema (3)
 
-**Human URL:** [https://cordova.apache.org/docs/en/latest/](https://cordova.apache.org/docs/en/latest/)
+The data models the API reads and writes.
 
-#### Tags:
+- [CameraOptions](https://apis.io/schemas/apache-cordova/apache-cordova-camera-options/)
+- [Widget](https://apis.io/schemas/apache-cordova/apache-cordova-config-widget/)
+- [Position](https://apis.io/schemas/apache-cordova/apache-cordova-geolocation-position/)
 
- - Android, CLI, Electron, iOS, JavaScript, Mobile, Plugins
+#### JSON Structure (3)
 
-#### Properties
+Data models expressed in JSON Structure.
 
+- [Apache Cordova Camera Options Structure](https://apis.io/json-structure/apache-cordova/apache-cordova-camera-options-structure/)
+- [Apache Cordova Config Widget Structure](https://apis.io/json-structure/apache-cordova/apache-cordova-config-widget-structure/)
+- [Apache Cordova Geolocation Position Structure](https://apis.io/json-structure/apache-cordova/apache-cordova-geolocation-position-structure/)
+
+#### JSON-LD (3)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apache Cordova Camera Context](https://apis.io/jsonld/apache-cordova/apache-cordova-camera-context/)
+- [Apache Cordova Config Context](https://apis.io/jsonld/apache-cordova/apache-cordova-config-context/)
+- [Apache Cordova Geolocation Context](https://apis.io/jsonld/apache-cordova/apache-cordova-geolocation-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Apache Cordova Vocabulary](https://apis.io/vocabularies/apache-cordova/apache-cordova-vocabulary/)
+
+#### Examples (3)
+
+Example requests and responses.
+
+- [Apache Cordova Camera Options Example](https://apis.io/examples/apache-cordova/apache-cordova-camera-options-example/)
+- [Apache Cordova Config Widget Example](https://apis.io/examples/apache-cordova/apache-cordova-config-widget-example/)
+- [Apache Cordova Geolocation Position Example](https://apis.io/examples/apache-cordova/apache-cordova-geolocation-position-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Apache Cordova — jsonschema rules](https://apis.io/rules/apache-cordova/apache-cordova-jsonschema-spectral-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apache Cordova Domain Security](https://apis.io/security/apache-cordova/apache-cordova-domain-security/)
+- [Apache Cordova Vulnerability Disclosure](https://apis.io/security/apache-cordova/apache-cordova-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Apache Cordova Plans Pricing](https://apis.io/plans/apache-cordova/apache-cordova-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Apache Cordova Rate Limits](https://apis.io/rate-limits/apache-cordova/apache-cordova-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apache Cordova Finops](https://apis.io/finops/apache-cordova/apache-cordova-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Documentation](https://cordova.apache.org/docs/en/latest/)
-- [GettingStarted](https://cordova.apache.org/docs/en/latest/guide/overview/)
-- [APIReference](https://cordova.apache.org/docs/en/latest/config_ref/)
-- [CLI](https://github.com/apache/cordova-cli)
-- [npm Package](https://www.npmjs.com/package/cordova)
-- [GitHubRepository](https://github.com/apache/cordova)
-- [GitHubOrganization](https://github.com/apache)
-- [Android Platform](https://www.npmjs.com/package/cordova-android)
-- [iOS Platform](https://www.npmjs.com/package/cordova-ios)
-- [Electron Platform](https://www.npmjs.com/package/cordova-electron)
-- [Browser Platform](https://www.npmjs.com/package/cordova-browser)
-- [JavaScript Bridge](https://github.com/apache/cordova-js)
-- [Camera Plugin](https://www.npmjs.com/package/cordova-plugin-camera)
-- [File Plugin](https://www.npmjs.com/package/cordova-plugin-file)
-- [Geolocation Plugin](https://www.npmjs.com/package/cordova-plugin-geolocation)
-- [InAppBrowser Plugin](https://www.npmjs.com/package/cordova-plugin-inappbrowser)
-- [Media Plugin](https://www.npmjs.com/package/cordova-plugin-media)
-- [Media Capture Plugin](https://www.npmjs.com/package/cordova-plugin-media-capture)
-- [Dialogs Plugin](https://www.npmjs.com/package/cordova-plugin-dialogs)
-- [Device Plugin](https://www.npmjs.com/package/cordova-plugin-device)
-- [Network Information Plugin](https://www.npmjs.com/package/cordova-plugin-network-information)
-- [Vibration Plugin](https://www.npmjs.com/package/cordova-plugin-vibration)
-- [Battery Status Plugin](https://www.npmjs.com/package/cordova-plugin-battery-status)
-- [Screen Orientation Plugin](https://www.npmjs.com/package/cordova-plugin-screen-orientation)
-- [Statusbar Plugin](https://www.npmjs.com/package/cordova-plugin-statusbar)
-- [Device Motion Plugin](https://www.npmjs.com/package/cordova-plugin-device-motion)
-- [Device Orientation Plugin](https://www.npmjs.com/package/cordova-plugin-device-orientation)
-- [File Transfer Plugin](https://www.npmjs.com/package/cordova-plugin-file-transfer)
-- [Plugman Plugin Manager](https://github.com/apache/cordova-plugman)
-- [Hello World Template](https://github.com/apache/cordova-app-hello-world)
-- [Mobile Spec Test Suite](https://github.com/apache/cordova-mobile-spec)
-- [Camera Options](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-schema/apache-cordova-camera-options-schema.json)
-- [Config Widget](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-schema/apache-cordova-config-widget-schema.json)
-- [Geolocation Position](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-schema/apache-cordova-geolocation-position-schema.json)
-- [JSONStructure](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-structure/apache-cordova-camera-options-structure.json)
-- [JSONStructure](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-structure/apache-cordova-config-widget-structure.json)
-- [JSONStructure](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-structure/apache-cordova-geolocation-position-structure.json)
-- [JSONLD](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-ld/apache-cordova-camera-context.jsonld)
-- [JSONLD](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-ld/apache-cordova-config-context.jsonld)
-- [JSONLD](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/json-ld/apache-cordova-geolocation-context.jsonld)
-- [Example](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/examples/apache-cordova-camera-options-example.json)
-- [Example](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/examples/apache-cordova-config-widget-example.json)
-- [Example](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/examples/apache-cordova-geolocation-position-example.json)
-
-## Common Properties
-
-- [Portal](https://cordova.apache.org/)
-- [Blog](https://cordova.apache.org/blog/)
-- [ReleaseNotes](https://cordova.apache.org/blog/)
-- [Documentation](https://cordova.apache.org/docs/en/latest/)
-- [GettingStarted](https://cordova.apache.org/docs/en/latest/guide/overview/)
+- [Getting started](https://cordova.apache.org/docs/en/latest/guide/overview/)
 - [Support](https://cordova.apache.org/contact/)
-- [StackOverflow](https://stackoverflow.com/questions/tagged/cordova)
-- [GitHubOrganization](https://github.com/apache)
-- [CLI](https://github.com/apache/cordova-cli)
-- [Plugman Plugin Manager](https://github.com/apache/cordova-plugman)
-- [Paramedic Test Runner](https://github.com/apache/cordova-paramedic)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/vocabulary/apache-cordova-vocabulary.yaml)
+- [Blog](https://cordova.apache.org/blog/)
+- [GitHub](https://github.com/apache)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Plugin Architecture | Extensible plugin system that bridges JavaScript to native device APIs for camera, GPS, file system, contacts, battery, and more. |
-| Cross-Platform CLI | Command-line interface for creating, building, testing, and deploying applications to multiple platforms from a single codebase. |
-| Native Device Access | Access to native hardware capabilities including camera, geolocation, network information, vibration, media capture, and device info. |
-| WebView-Based Runtime | Renders applications in a native WebView, enabling web technologies to run as native mobile apps on iOS, Android, and Electron. |
-| Plugin Development API | Full API for creating custom native plugins in Swift/Objective-C (iOS) and Java/Kotlin (Android) that expose device APIs to JavaScript. |
-| Allowlist Security | Built-in allowlist mechanism for controlling which URLs and resources the application is permitted to access. |
+**Kin Score 34.2** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 33.2 |
+| Contract governance | 9.8 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 69.0 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| Cross-Platform Mobile Apps | Build iOS and Android apps from a single HTML/CSS/JavaScript codebase, reducing development time and cost. |
-| Hybrid App Development | Combine web application UIs with native device capabilities for apps that need both web flexibility and native hardware access. |
-| Enterprise Mobile Solutions | Rapidly prototype and deploy enterprise mobile applications leveraging existing web development skills. |
-| Desktop Apps via Electron | Package web apps as Electron desktop applications using the same Cordova plugin model. |
-| IoT and Device Interfaces | Interface with Bluetooth, sensors, and other hardware through community and custom Cordova plugins. |
+**Agent readiness 1.9** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Ionic Framework | Ionic uses Cordova (and Capacitor) as its native runtime, providing UI components on top of the Cordova platform. |
-| Adobe PhoneGap | PhoneGap was a commercial distribution of Apache Cordova, now retired, but helped establish the Cordova ecosystem. |
-| npm Package Registry | Cordova plugins and the CLI are published and distributed via npm, the Node.js package registry. |
-| Gradle (Android) | Android platform builds use Gradle for dependency management and compilation. |
-| Xcode (iOS) | iOS platform builds require Xcode for compilation, signing, and deployment. |
-| Electron | Cordova-Electron platform target allows packaging Cordova apps as desktop Electron applications. |
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
 
-## Artifacts
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-cordova/](https://apis.io/providers/apache-cordova/).
 
-Machine-readable API specifications and schemas.
+## How this profile is made
 
-### JSON Schema
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [Camera Options](json-schema/apache-cordova-camera-options-schema.json)
-- [Config Widget](json-schema/apache-cordova-config-widget-schema.json)
-- [Geolocation Position](json-schema/apache-cordova-geolocation-position-schema.json)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Cordova: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### JSON Structure
+## Open an issue
 
-- [Camera Options](json-structure/apache-cordova-camera-options-structure.json)
-- [Config Widget](json-structure/apache-cordova-config-widget-structure.json)
-- [Geolocation Position](json-structure/apache-cordova-geolocation-position-structure.json)
-
-### JSON-LD
-
-- [Camera](json-ld/apache-cordova-camera-context.jsonld)
-- [Config](json-ld/apache-cordova-config-context.jsonld)
-- [Geolocation](json-ld/apache-cordova-geolocation-context.jsonld)
-
-### Examples
-
-- [Camera Options](examples/apache-cordova-camera-options-example.json)
-- [Config Widget](examples/apache-cordova-config-widget-example.json)
-- [Geolocation Position](examples/apache-cordova-geolocation-position-example.json)
-
-## Vocabulary
-
-- [Apache Cordova Vocabulary](vocabulary/apache-cordova-vocabulary.yaml) — Unified taxonomy mapping resources, actions, and personas across the Cordova plugin ecosystem
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-cordova/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
